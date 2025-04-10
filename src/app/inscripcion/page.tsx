@@ -68,20 +68,22 @@ export default function Inscripcion() {
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Imagen de fondo */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none hidden md:block">
       <Image
         src="/pjInvitacion.jpg"
         alt="Fondo"
         fill
-        className="absolute top-0 left-0 object-cover opacity-60 -z-10 pointer-events-none"
+        className="absolute top-0 left-0 object-cover opacity-80 -z-10 pointer-events-none"
         priority
       />
+      </div>
 
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-lg bg-white p-8 rounded-2xl shadow-md space-y-4"
       >
         <h1 className="text-2xl font-bold text-center">
-          Completa tus datos y ya estarás reservando tu lugar en la PJ !!
+          Completá tus datos y ya estarás Reservando tu lugar en la PJ 2025!!
         </h1>
 
         <label htmlFor="name" className="block font-semibold mb-1">Cédula</label>
@@ -182,7 +184,7 @@ export default function Inscripcion() {
           required
         />
 
-        <label htmlFor="name" className="block font-semibold mb-1">Que esperas de esta Pascua Joven?</label>
+        <label htmlFor="name" className="block font-semibold mb-1">Que esperas de esta Pascua Joven 2025?</label>
         <textarea
           name="mensaje"
           placeholder="Escribe tu mensaje"
@@ -194,7 +196,7 @@ export default function Inscripcion() {
 
         <button
           type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition-colors"
+          className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg transition-colors"
         >
           Confirmar Inscripción !!
         </button>
