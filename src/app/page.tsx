@@ -5,6 +5,7 @@ export default function Home() {
   return (
 
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden" style={{ backgroundColor: "#48c3e58f" }}>
+
       {/* Imagen de fondo para PC (cuando esté en desktop o cuando el móvil esté en orientación horizontal) */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none hidden md:block landscape:block">
         <Image
@@ -47,53 +48,55 @@ export default function Home() {
           </Link>
         </div>
       </main>
-      {/*<footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+      
+      <footer className="row-start-3 w-full bg-white bg-opacity-90 backdrop-blur-sm py-4 px-6 rounded-xl shadow-lg flex gap-[24px] flex-wrap items-center justify-center z-10 relative">
+
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.facebook.com/espiritusanto.asuncion"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="/facebook.svg"
             alt="File icon"
             width={16}
             height={16}
           />
-          Learn
+          espiritusanto.asuncion
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.instagram.com/7doneses?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="/instagram.svg"
             alt="Window icon"
             width={16}
             height={16}
           />
-          Examples
+          @7doneses
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://maps.app.goo.gl/HepFbB2hfoV4wy8Y8"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/globe.svg"
+            src="/maps.gif"
             alt="Globe icon"
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          Ubicación
         </a>
-      </footer>*/}
+      </footer>
 
     </div>
 
