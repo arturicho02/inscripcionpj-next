@@ -49,7 +49,7 @@ export default function Home() {
         </div>
       </main>
       
-      <footer className="row-start-3 w-full bg-white bg-opacity-90 backdrop-blur-sm py-4 px-6 rounded-xl shadow-lg flex gap-[24px] flex-wrap items-center justify-center z-10 relative">
+      <footer className="row-start-3 w-full bg-white backdrop-blur-sm py-4 px-6 rounded-xl shadow-lg flex gap-[24px] flex-wrap items-center justify-center z-10 relative">
 
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"

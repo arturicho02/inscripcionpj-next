@@ -73,7 +73,8 @@ export default function Inscripcion() {
         src="/pjInvitacion.jpg"
         alt="Fondo"
         fill
-        className="absolute top-0 left-0 object-cover opacity-80 -z-10 pointer-events-none"
+        //className="absolute top-0 left-0 object-cover opacity-80 -z-10 pointer-events-none"
+        className="absolute top-0 left-0 object-cover -z-10 pointer-events-none"
         priority
       />
       </div>
