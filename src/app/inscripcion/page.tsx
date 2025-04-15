@@ -81,7 +81,7 @@ export default function Inscripcion() {
 
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-lg bg-white p-8 rounded-2xl shadow-md space-y-4"
+        className="w-full max-w-lg bg-white p-8 space-y-4"
       >
         <h1 className="text-2xl font-bold text-center">
           Completá tus datos y ya estarás Reservando tu lugar en la PJ 2025!!
