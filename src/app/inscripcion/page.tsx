@@ -48,8 +48,8 @@ export default function Inscripcion() {
           mensaje: "",
           fcumple: "",
         });
-        //alert('¡Felicidades, ya estás inscripto a la PJ 2025!');
-        toast.success("¡Felicidades, ya estás inscripto a la PJ 2025!");
+        //alert('¡Felicidades, ya estás inscripto a la PJ 2026!');
+        toast.success("¡Felicidades, ya estás inscripto a la PJ 2026!");
         setTimeout(() => {
           window.location.reload();
         }, 5000);
@@ -70,7 +70,7 @@ export default function Inscripcion() {
       {/* Imagen de fondo */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none hidden md:block">
       <Image
-        src="/pjInvitacion.jpg"
+        src="/pjInvitacion2026.jpg"
         alt="Fondo"
         fill
         //className="absolute top-0 left-0 object-cover opacity-80 -z-10 pointer-events-none"
@@ -84,7 +84,7 @@ export default function Inscripcion() {
         className="w-full max-w-lg bg-white p-8 space-y-4"
       >
         <h1 className="text-2xl font-bold text-center">
-          Completá tus datos y ya estarás Reservando tu lugar en la PJ 2025!!
+          Completá tus datos y ya estarás Reservando tu lugar en la PJ 2026!!
         </h1>
 
         <label htmlFor="name" className="block font-semibold mb-1">Cédula</label>
@@ -185,7 +185,7 @@ export default function Inscripcion() {
           required
         />
 
-        <label htmlFor="name" className="block font-semibold mb-1">Que esperas de esta Pascua Joven 2025?</label>
+        <label htmlFor="name" className="block font-semibold mb-1">Que esperas de esta Pascua Joven 2026?</label>
         <textarea
           name="mensaje"
           placeholder="Escribe tu mensaje"
@@ -204,7 +204,7 @@ export default function Inscripcion() {
 
         {submitted && (
           <p className="text-green-600 text-center font-medium">
-            ¡Felicidades, ya estás inscripto a la PJ 2025!
+            ¡Felicidades, ya estás inscripto a la PJ 2026!
           </p>
         )}
       </form>

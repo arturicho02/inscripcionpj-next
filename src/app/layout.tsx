@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Parroquia Espíritu Santo",
-  description: "Inscríbete a la Pascua Jóven 2025 y conoce esta magnífica experiencia !!! 17, 18 y 19 de Abril - 9a.m. Dir.: San Francisco c/Siria 723, Asunción - Py",
+  description: "Inscríbete a la Pascua Jóven 2026 y conoce esta magnífica experiencia !!! 17, 18 y 19 de Abril - 9a.m. Dir.: San Francisco c/Siria 723, Asunción - Py",
 };
 
 export default function RootLayout({
